@@ -52,7 +52,7 @@
                 <div class="header-widget">
                     <a href="#sign-in-dialog-Leader" class="sign-in popup-with-zoom-anim button">
                         كن قائد <i class="sl sl-icon-login"></i> </a>
-                    <span class="or">OR</span>
+                    <span class="or">أو</span>
                     <a href="#sign-in-dialog-Tourist" class="sign-in popup-with-zoom-anim button">
                         كن سائح <i class="sl sl-icon-login"></i> </a>
                 </div>

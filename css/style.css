@@ -1141,11 +1141,11 @@ body #navigation ul ul {
 }
 
 .mm-next:after {
-    -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    transform: rotate(135deg);
-    right: 23px;
-    left: auto
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    left: 23px;
+    right: auto
 }
 
 .mm-navbar {
@@ -1285,7 +1285,7 @@ body #navigation ul ul {
 }
 
 .mm-listview .mm-next.mm-fullsubopen + a, .mm-listview .mm-next.mm-fullsubopen + span {
-    padding-right: 50px;
+    padding-left: 50px;
     margin-right: 0
 }
 
@@ -1413,11 +1413,11 @@ html.mm-blocking #mm-blocker {
 }
 
 html.mm-opening .mm-menu.mm-opened ~ .mm-slideout {
-    -webkit-transform: translate(80%, 0);
-    -ms-transform: translate(80%, 0);
-    transform: translate(80%, 0);
-    -webkit-transform: translate3d(80%, 0, 0);
-    transform: translate3d(80%, 0, 0)
+    -webkit-transform:  translate3d(-77%, 0, 0);
+    -ms-transform:  translate3d(-77%, 0, 0);
+    transform:  translate3d(-77%, 0, 0);
+    -webkit-transform:  translate3d(-77%, 0, 0);
+    transform:  translate3d(-77%, 0, 0);
 }
 
 @media all and (max-width: 175px) {
@@ -1432,11 +1432,11 @@ html.mm-opening .mm-menu.mm-opened ~ .mm-slideout {
 
 @media all and (min-width: 550px) {
     html.mm-opening .mm-menu.mm-opened ~ .mm-slideout {
-        -webkit-transform: translate(440px, 0);
-        -ms-transform: translate(440px, 0);
-        transform: translate(440px, 0);
-        -webkit-transform: translate3d(440px, 0, 0);
-        transform: translate3d(440px, 0, 0)
+        -webkit-transform: translate(-440px, 0);
+        -ms-transform: translate(-440px, 0);
+        transform: translate(-440px, 0);
+        -webkit-transform: translate3d(-440px, 0, 0);
+        transform: translate3d(-440px, 0, 0)
     }
 }
 
@@ -1462,7 +1462,7 @@ em.mm-counter {
     display: block;
     margin-top: -10px;
     position: absolute;
-    right: 45px;
+    left: 45px;
     top: 50%
 }
 
@@ -1479,11 +1479,11 @@ em.mm-counter + a.mm-fullsubopen {
 }
 
 em.mm-counter + a.mm-fullsubopen + a, em.mm-counter + a.mm-fullsubopen + span {
-    padding-right: 90px
+    padding-left: 90px
 }
 
 .mm-listview em.mm-counter + .mm-next.mm-fullsubopen + a, .mm-listview em.mm-counter + .mm-next.mm-fullsubopen + span {
-    padding-right: 90px
+    padding-left: 90px
 }
 
 .mm-vertical > .mm-counter {
@@ -1526,7 +1526,7 @@ em.mm-counter + a.mm-fullsubopen + a, em.mm-counter + a.mm-fullsubopen + span {
 .hamburger {
     padding: 0;
     top: 12px;
-    left: 13px;
+    right: 13px;
     transform: scale(.67);
     -moz-transform: scale(.7) translateY(4px);
     position: relative;

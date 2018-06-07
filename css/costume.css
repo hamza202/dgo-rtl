@@ -238,22 +238,12 @@ img.footer-logo {
     .switch {
         position: relative;
         width: 36rem;
-        margin-left: 37px;
+        margin-right: 37px;
         padding: 0 1rem;
         margin-top: 32px;
     }
     .main-search-container {
         height: 700px;
-    }
-}
-@media (max-width: 480px) {
-    label[for="two"]{
-        margin-left: 0;
-        display: block;
-
-    }
-    .switch input#two:checked ~ .switch__indicator{
-        transform: translate3d(-78%, 120%, 0);
     }
 }
 
@@ -499,7 +489,7 @@ span.or{
 @media (max-width: 768px) {
     .featured-section {
         padding-top: 2rem;
-        background-position: left 75vw bottom 50%;
+        background-position: right 75vw bottom 50%;
         background-size: auto 75%;
     }
     .main-search-input input{
@@ -512,7 +502,7 @@ span.or{
 @media (max-width: 480px) {
     .featured-section {
         padding-top: 2rem;
-        background-position: left 75vw bottom 50%;
+        background-position: right 75vw bottom 50%;
         background-size: auto ;
     }
     a.sign-in.button {
@@ -570,8 +560,8 @@ span.or{
     }
 }
 label[for="two"]{
-    margin-right: 16%;
-    margin-left: 0;
+    margin-left: 16%;
+    margin-right: 0;
 }
 .switch input#one:checked ~ .switch__indicator{
     transform: translate3d(83%, 0, 0) rotateY(180deg);
@@ -613,4 +603,40 @@ body, h1, h2, h3, h4, h5, h6, input[type=text], input[type=password], input[type
 }
 .right-side ul#responsive {
     margin-top: 10px !important;
+}
+@media (max-width: 480px) {
+    label[for="two"]{
+        margin-left: 0;
+        display: block;
+
+    }
+    .switch input#two:checked ~ .switch__indicator{
+        transform: translate3d(82%, 87%, 0) rotateY(180deg);
+    }
+}
+.col-xs-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+@media (min-width: 768px) {
+    .col-md-offset-2 {
+        margin-right: 16.66666667%;
+        margin-left: 0;
+    }
+    .gsi-number-circle li>* .number {
+        padding: 2px 4px 4px 4px;
+        width: 26px;
+        height: 26px;
+        font-size: 17px;
+    }
+ }
+@media (min-width: 480px) {
+    .gsi-number-circle li>* .number {
+        padding: 2px 4px 4px 4px;
+        width: 26px !important;
+        height: 26px !important;
+        font-size: 17px !important;
+    }
 }

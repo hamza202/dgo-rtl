@@ -9,7 +9,7 @@
                     $("#navigation").clone().addClass("mmenu-init").insertBefore("#navigation").removeAttr('id').removeClass('style-1 style-2').find('ul, div').removeClass('style-1 style-2 mega-menu mega-menu-content mega-menu-section').removeAttr('id');
                     $(".mmenu-init").find("ul").addClass("mm-listview");
                     $(".mmenu-init").find(".mobile-styles .mm-listview").unwrap();
-                    $(".mmenu-init").mmenu({"counters": true}, {offCanvas: {pageNodetype: "#wrapper"}});
+                    $(".mmenu-init").mmenu({"counters": true} , {offCanvas: {pageNodetype: "#wrapper"} });
                     var mmenuAPI = $(".mmenu-init").data("mmenu");
                     var $icon = $(".hamburger");
                     $(".mmenu-trigger").click(function () {
