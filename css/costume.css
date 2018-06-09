@@ -558,6 +558,17 @@ span.or{
     .gsi-style-7 li{
         display: block;
     }
+    .col-xs-9 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .featured-section {
+        padding-top: 2rem;
+        background-position: right 75vw bottom 50%;
+        background-size: auto 75%;
+    }
 }
 label[for="two"]{
     margin-left: 16%;
@@ -595,6 +606,12 @@ label[for="two"]{
     right: -18px;
     position: relative;
 }
+.icon-box-2 i{
+    background: transparent;
+}
+.advantages{
+    padding-bottom: 50px;
+}
 body, h1, h2, h3, h4, h5, h6, input[type=text], input[type=password], input[type=email], textarea, select, input[type=button], input[type=submit], button, #tiptip_content, .map-box p, .map-box div, .numerical-rating .rating-counter, body .menu-responsive i.menu-trigger:after{
     font-family: 'JF Flat Regular' , sans-serif !important;
 }
@@ -614,12 +631,7 @@ body, h1, h2, h3, h4, h5, h6, input[type=text], input[type=password], input[type
         transform: translate3d(82%, 87%, 0) rotateY(180deg);
     }
 }
-.col-xs-9 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%;
-}
+
 @media (min-width: 768px) {
     .col-md-offset-2 {
         margin-right: 16.66666667%;

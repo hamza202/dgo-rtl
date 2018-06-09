@@ -98,116 +98,7 @@
 
         </div>
     </div>
-
-    <section class="fullwidth padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h3 class="headline centered">
-                        ميزات الاشتراك معنا
-
-                    </h3>
-                </div>
-            </div>
-        </div>
-        <div class="featured-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/money.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0"> نضمن حقوقك المالية بطريقة تناسبك
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/car1.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0">  نقدم لك عدد كبير من الناس الذين يرغبون في السفر والجولة و نصع لك كل الاحتمالات</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row margin-top-30">
-                    <div class="col-md-3 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/calendar.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0">نسعى لتوفير جولات طوال ايام السنة
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/approve-invoice.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0"> نوفر خدمة الحجوزات بالأيام والساعات
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row margin-top-30">
-                    <div class="col-md-3 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/segment-path.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0">سهولة الوصول للسائح الخليجي (على وجه الخصوص)
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/present.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0"> الحصول على عروض وهدايا سنوية مقايل جودة الخدمة
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row margin-top-30">
-                    <div class="col-md-3 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/responsive.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0">من خلال موقعنا يمكنك الحصول على صفحة خاصة بك تقدم من خلالها ما تريد من برامج الصور والعروض التقديمية
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
-                        <div class="media mb-3">
-                            <img class="align-self-start mr-3 img-fluid" src="images/tourist.svg" alt="money">
-                            <div class="media-body">
-                                <h3>Title</h3>
-                                <p class="mt-0">وجود عدد كبير من السائحين الباحثين عن جولات سياحية سواء كانو افراد او مجموعات
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="advantages ">
+    <section class="advantages " style="background-color: #f9f9f9">
         <div class="container">
 
             <div class="row">
@@ -316,6 +207,115 @@
 
         </div>
     </section>
+
+    <section class="fullwidth padding-top-75 padding-bottom-70" >
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="headline centered">
+                        ميزات الاشتراك معنا
+
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="featured-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/money.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0"> نضمن حقوقك المالية بطريقة تناسبك
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/car1.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0">  نقدم لك عدد كبير من الناس الذين يرغبون في السفر والجولة و نصع لك كل الاحتمالات</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-30">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/calendar.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0">نسعى لتوفير جولات طوال ايام السنة
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/approve-invoice.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0"> نوفر خدمة الحجوزات بالأيام والساعات
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-30">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/segment-path.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0">سهولة الوصول للسائح الخليجي (على وجه الخصوص)
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/present.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0"> الحصول على عروض وهدايا سنوية مقايل جودة الخدمة
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-30">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/responsive.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0">من خلال موقعنا يمكنك الحصول على صفحة خاصة بك تقدم من خلالها ما تريد من برامج الصور والعروض التقديمية
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/tourist.svg" alt="money">
+                            <div class="media-body">
+                                <h3>Title</h3>
+                                <p class="mt-0">وجود عدد كبير من السائحين الباحثين عن جولات سياحية سواء كانو افراد او مجموعات
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="fullwidth margin-top-70 padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
         <!-- Info Section -->
