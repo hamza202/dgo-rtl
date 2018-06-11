@@ -227,7 +227,72 @@
         </div>
     </section>
 
-    <section class="fullwidth padding-top-75 padding-bottom-70" >
+    <section class="fullwidth margin-top-70 padding-top-75 padding-bottom-70" >
+        <!-- Info Section -->
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="headline centered">
+                        ماذا يقول عملاؤنا
+                        <span class="margin-top-25">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد</span>
+                    </h3>
+                </div>
+            </div>
+
+        </div>
+        <!-- Info Section / End -->
+
+        <!-- Categories Carousel -->
+        <div class="fullwidth-carousel-container margin-top-20">
+            <div class="testimonial-carousel testimonials">
+
+                <!-- Item -->
+                <div class="fw-carousel-review">
+                    <div class="testimonial-box">
+                        <div class="testimonial">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/happy-client-01.jpg" alt="">
+                        <h4>مريم احمد <span>مالكة معرض ملابس</span></h4>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="fw-carousel-review">
+                    <div class="testimonial-box">
+                        <div class="testimonial">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/happy-client-02.jpg" alt="">
+                        <h4>خالد عبدالله <span>مالك متجر الملابس</span></h4>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="fw-carousel-review">
+                    <div class="testimonial-box">
+                        <div class="testimonial">
+                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
+                        </div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/happy-client-03.jpg" alt="">
+                        <h4>عبدالله الخالدي <span>صاحب مطعم</span></h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Categories Carousel / End -->
+
+    </section>
+
+    <section class="fullwidth padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
         <div class="container">
 
             <div class="row">
@@ -333,72 +398,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section class="fullwidth margin-top-70 padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
-        <!-- Info Section -->
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h3 class="headline centered">
-                        ماذا يقول عملاؤنا
-                        <span class="margin-top-25">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد</span>
-                    </h3>
-                </div>
-            </div>
-
-        </div>
-        <!-- Info Section / End -->
-
-        <!-- Categories Carousel -->
-        <div class="fullwidth-carousel-container margin-top-20">
-            <div class="testimonial-carousel testimonials">
-
-                <!-- Item -->
-                <div class="fw-carousel-review">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
-                        </div>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/happy-client-01.jpg" alt="">
-                        <h4>مريم احمد <span>مالكة معرض ملابس</span></h4>
-                    </div>
-                </div>
-
-                <!-- Item -->
-                <div class="fw-carousel-review">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
-                        </div>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/happy-client-02.jpg" alt="">
-                        <h4>خالد عبدالله <span>مالك متجر الملابس</span></h4>
-                    </div>
-                </div>
-
-                <!-- Item -->
-                <div class="fw-carousel-review">
-                    <div class="testimonial-box">
-                        <div class="testimonial">
-                            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق
-                        </div>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="images/happy-client-03.jpg" alt="">
-                        <h4>عبدالله الخالدي <span>صاحب مطعم</span></h4>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- Categories Carousel / End -->
-
     </section>
 
     <!-- Parallax -->
