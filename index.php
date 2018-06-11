@@ -117,7 +117,7 @@
 
         </div>
     </div>
-    <section class="advantages " style="background-color: #f9f9f9">
+    <section class="advantages padding-bottom-75 " style="background-color: #f9f9f9">
         <div class="container">
 
             <div class="row">
@@ -227,7 +227,7 @@
         </div>
     </section>
 
-    <section class="fullwidth margin-top-70 padding-top-75 padding-bottom-70" >
+    <section class="fullwidth  padding-top-75 padding-bottom-70" >
         <!-- Info Section -->
         <div class="container">
 
