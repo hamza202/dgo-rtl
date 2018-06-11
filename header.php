@@ -50,11 +50,11 @@
             <!-- Right Side Content / End -->
             <div class="right-side">
                 <div class="header-widget">
-                    <a href="Registration-Leader.php" class="sign-in  button">
-                        كن قائد <i class="sl sl-icon-login"></i> </a>
-                    <span class="or">أو</span>
-                    <a href="#sign-in-dialog-Tourist" class="sign-in popup-with-zoom-anim button">
+                    <a href="#sign-in-dialog-Tourist" class="sign-in popup-with-zoom-anim ">
                         كن سائح <i class="sl sl-icon-login"></i> </a>
+                    <span class="or">|</span>
+                    <a href="Registration-Leader.php" class="sign-in ">
+                        كن قائد <i class="sl sl-icon-login"></i> </a>
                 </div>
             </div>
             <!-- Right Side Content / End -->
@@ -156,6 +156,20 @@
                                         <i class="im im-icon-Lock-2"></i>
                                         <input class="input-text" type="password" name="confirm_password1"
                                                id="confirm_password1"/>
+                                    </label>
+                                </p>
+                                <p class="form-row form-row-wide ">
+                                    <label for="condition" class="condition-label margin-bottom-0">
+                                        <input type="checkbox" name="condition"
+                                               id="condition"/>
+                                        أؤكد بموجب ذلك أن لدي أحد مؤهلات المرشد السياحي التالي / ترخيص / شهادة / تدريب.
+                                    </label>
+                                </p>
+                                <p class="form-row form-row-wide ">
+                                    <label for="condition2" class="condition-label">
+                                        <input type="checkbox" name="condition2"
+                                               id="condition2"/>
+                                        أوافق على تقديم خصم 10 ٪ لحجزي الأول والثاني.
                                     </label>
                                 </p>
 

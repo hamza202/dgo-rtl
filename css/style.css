@@ -1810,8 +1810,8 @@ em.mm-counter + a.mm-fullsubopen + a, em.mm-counter + a.mm-fullsubopen + span {
     padding-right: 30px
 }
 
-.main-search-input .main-search-input-item:nth-last-child(2) {
-    border-right: 0;
+.main-search-input .main-search-input-item:nth-last-child(1) {
+    border-left: 0;
     padding-left: 15px;
     padding-right: 15px
 }
@@ -2120,7 +2120,7 @@ input[type=range]:focus + .rangeslider .rangeslider__handle {
     font-family: fontawesome;
     font-size: 18px;
     margin: 1px 0 0;
-    left: 20px;
+    left: 10px;
     position: relative;
     width: auto;
     height: auto;
@@ -2597,7 +2597,7 @@ input[type=range]:focus + .rangeslider .rangeslider__handle {
 
 .main-search-input .chosen-container-single .chosen-single div {
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: -2px
 }
 

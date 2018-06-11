@@ -776,32 +776,51 @@ starRating('.star-rating');
 $("#signupForm").validate({
     rules: {
         username2: {required: !0, minlength: 4},
-        Mobile: {required: !0, minlength: 2, number: true},
+        Mobile: {required: !0, minlength: 2,number: true},
         password1: {required: !0, minlength: 5},
         confirm_password1: {required: !0, minlength: 5, equalTo: "#password1"},
         email: {required: !0, email: !0},
-        agree: "required"
+        agree: "required",
+        condition: {
+            required: !0,
+            maxlength: 2
+        },
+        condition2: {
+            required: !0,
+            maxlength: 2
+        }
+
     },
     messages: {
+        required:"هذا الحقل مطلوب",
         username2: {
-            required: "Please enter a Name",
-            minlength: "Your username must consist of at least 4 characters"
+            required: "الرجاء ادخال اسمك",
+            minlength: "يجب أن يتكون اسم المستخدم الخاص بك من 4 أحرف على الأقل"
         },
-        Mobile: {
-            required: "Please enter a Valid Number",
+        Mobile:{
+            required: "من فضلك أدخل رقما صالحا",
+        },
+        condition:{
+            required: "يجب الموافقه على هذا الشرط ",
+            maxlength: "تحقق من أكثر من {0} مربعات"
+        },
+        condition2:{
+            required: "يجب الموافقه على هذا الشرط ",
+            maxlength: "تحقق من أكثر من {0} مربعات"
         },
         password: {
-            required: "Please provide a password",
-            minlength: "Your password must be at least 5 characters long"
+            required: "يرجى ادخال كلمة المرور",
+            minlength: "يجب أن تتكون كلمة المرور الخاصة بك من 5 أحرف على الأقل"
         },
         confirm_password: {
-            required: "Please provide a password",
-            minlength: "Your password must be at least 5 characters long",
-            equalTo: "Please enter the same password as above"
+            required: "يرجى ادخال كلمة المرور مرة اخرى",
+            minlength: "يجب أن تتكون كلمة المرور الخاصة بك من 5 أحرف على الأقل",
+            equalTo: "يرجى إدخال كلمة المرور نفسها مرة اخرى"
         },
-        email: "Please enter a valid email address"
+        email: "الرجاء قم بإدخال بريد الكتروني صحيح"
     }
 });
+
 
 $("#LogingForm").validate({
     rules: {
@@ -813,10 +832,10 @@ $("#LogingForm").validate({
     messages: {
 
         password: {
-            required: "Please provide a password",
-            minlength: "Your password must be at least 5 characters long"
+            required: "يرجى ادخال كلمة المرور",
+            minlength: "يجب أن تتكون كلمة المرور الخاصة بك من 5 أحرف على الأقل"
         },
 
-        Email1: "Please enter a valid email address"
+        Email1: "الرجاء قم بإدخال بريد الكتروني صحيح"
     }
 });
