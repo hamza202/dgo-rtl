@@ -50,8 +50,7 @@
             <!-- Right Side Content / End -->
             <div class="right-side">
                 <div class="header-widget">
-                    <a href="#sign-in-dialog-Tourist" class="sign-in popup-with-zoom-anim ">
-                        كن سائح <i class="sl sl-icon-login"></i> </a>
+                    <a href="#sign-in-dialog-Tourist" class="sign-in popup-with-zoom-anim ">سائح <i class="sl sl-icon-login"></i> </a>
                     <span class="or">|</span>
                     <a href="Registration-Leader.php" class="sign-in ">
                         كن قائد <i class="sl sl-icon-login"></i> </a>

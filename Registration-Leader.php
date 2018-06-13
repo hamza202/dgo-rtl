@@ -186,19 +186,19 @@
                                             <div class="col-md-6">
                                                 <select data-placeholder="All Categories" required class="chosen-select" >
                                                     <option value="">نوع العضوية</option>
-                                                    <option value="1">1- سائق سياحي مستقل</option>
-                                                    <option value="2">2- شركة سياحية</option>
-                                                    <option value="3">3- مرشد سياحي</option>
+                                                    <option value="1"> سائق سياحي مستقل</option>
+                                                    <option value="2"> شركة سياحية</option>
+                                                    <option value="3"> مرشد سياحي</option>
                                                 </select>
                                             </div>
                                             <div class="col-md-6">
                                                 <select data-placeholder="All Categories" required class="chosen-select" >
                                                     <option>نوع المركبة
                                                     </option>
-                                                    <option>1- سيارة VIP </option>
-                                                    <option>2- باص عائلي</option>
-                                                    <option>3- سيدان</option>
-                                                    <option>4- فان عائلي</option>
+                                                    <option> سيارة VIP </option>
+                                                    <option> باص عائلي</option>
+                                                    <option> سيدان</option>
+                                                    <option> فان عائلي</option>
 
                                                 </select>
                                             </div>
@@ -261,7 +261,22 @@
                                         </div>
                                     </div>
                                     <!-- END STEP CONTENT-->
-
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p class="form-row form-row-wide ">
+                                                <label for="condition3" class="condition-label margin-bottom-0">
+                                                    <input type="checkbox" name="condition3" id="condition3" data-parsley-required-message="يجب ان تقبل الشروط "  data-parsley-required="true" >
+                                                    أؤكد بموجب ذلك أن لدي أحد مؤهلات المرشد السياحي التالي / ترخيص / شهادة / تدريب.
+                                                </label>
+                                            </p>
+                                            <p class="form-row form-row-wide ">
+                                                <label for="condition4" class="condition-label">
+                                                    <input type="checkbox" name="condition4" id="condition4" data-parsley-required-message="يجب ان تقبل الشروط "  data-parsley-required="true" >
+                                                    أوافق على تقديم خصم 10 ٪ لحجزي الأول والثاني.
+                                                </label>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </fieldset>
                             </div>
                             <!-- END STEP 3-->
