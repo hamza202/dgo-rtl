@@ -151,6 +151,7 @@ input.error, select.error { border: 1px dotted red !important; }
     border-radius: 50px;
     display: inline-block;
     border: 0;
+    cursor: pointer;
     outline: 0;
     box-shadow: 0px 4px 20px 0px #49c628a6;
     background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
