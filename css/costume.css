@@ -244,7 +244,7 @@ img.footer-logo {
         margin-top: 32px;
     }
     .main-search-container {
-        height: 700px;
+        height: 570px;
     }
 }
 
@@ -832,4 +832,18 @@ label.error, label.error{
 }
 .main-search-input-item .chosen-container .chosen-drop{
     z-index: 110;
+}
+@media (max-width: 480px) {
+    .main-search-container {
+        height: 505px;
+    }
+    .main-search-container h2{
+        font-size: 24px;
+    }
+}
+.something{
+    display: inline-block;
+    width: 100%;
+    font-family:'JF Flat Regular';
+    font-weight: 600;
 }

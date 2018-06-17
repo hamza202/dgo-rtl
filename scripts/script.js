@@ -24,6 +24,12 @@ $(document).ready(function() {
     var date1 = $('#date1');
     var date2 = $('#date2');
     date1.datepicker({
+        beforeShow: function () {
+            setTimeout(appendsomething, 10);
+        },
+        onChangeMonthYear: function () {
+            setTimeout(appendsomething, 10);
+        },
         defaultDate: "+1w",
         changeMonth: true,
         numberOfMonths: 1,
@@ -35,7 +41,14 @@ $(document).ready(function() {
 
         }
     });
+    var appendsomething = function () {
+        $(".ui-datepicker-title").append("<div class='something'>تاريخ المغادرة</div>");
+    }
     date2.datepicker({
+
+        onChangeMonthYear: function () {
+            setTimeout(appendsomething1, 10);
+        },
         defaultDate: "+1w",
         changeMonth: true,
         numberOfMonths: 1,
@@ -46,8 +59,10 @@ $(document).ready(function() {
             date1.val(date1.val() + " - " + formattedDate);
         }
     });
+    var appendsomething1 = function () {
+        $(".ui-datepicker-title").append("<div class='something'>تاريخ الوصول</div>");
+    }
 });
-
 $(function () {
     pageLoadScript();
 });
