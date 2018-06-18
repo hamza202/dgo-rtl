@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b1d87f7-7561-4da5-995a-46708d405152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="costume.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/costume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="847" column="20" selection-start-line="847" selection-start-column="20" selection-end-line="847" selection-end-column="20" />
+            <state relative-caret-position="261">
+              <caret line="246" column="19" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -72,8 +70,20 @@
       <file leaf-file-name="Registration-Leader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5627">
-              <caret line="331" column="23" selection-start-line="331" selection-start-column="23" selection-end-line="331" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parsley.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/parsley.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="2253" column="56" lean-forward="true" selection-start-line="2253" selection-start-column="56" selection-end-line="2253" selection-end-column="56" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/style.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="44" />
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -157,10 +167,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-36" />
-    <option name="y" value="153" />
-    <option name="width" value="915" />
-    <option name="height" value="735" />
+    <option name="x" value="-30" />
+    <option name="y" value="154" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -226,12 +236,12 @@
       <workItem from="1528839418959" duration="2560000" />
       <workItem from="1529269112601" duration="3436000" />
       <workItem from="1529273077892" duration="1529000" />
-      <workItem from="1529275148781" duration="943000" />
+      <workItem from="1529275148781" duration="3401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18613000" />
+    <option name="totallyTimeSpent" value="21071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -466,16 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/parsley.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38352">
-          <caret line="2263" column="54" selection-start-line="2263" selection-start-column="54" selection-end-line="2263" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/tsf-wizard-plugin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2142" />
@@ -492,13 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7565">
           <caret line="445" column="25" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5627">
-          <caret line="331" column="23" selection-start-line="331" selection-start-column="23" selection-end-line="331" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -571,13 +564,6 @@
     <entry file="file://$PROJECT_DIR$/css/parsley.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -592,10 +578,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/parsley.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2253" column="56" lean-forward="true" selection-start-line="2253" selection-start-column="56" selection-end-line="2253" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/costume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="847" column="20" selection-start-line="847" selection-start-column="20" selection-end-line="847" selection-end-column="20" />
+        <state relative-caret-position="261">
+          <caret line="246" column="19" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
         </state>
       </provider>
     </entry>
