@@ -1050,7 +1050,11 @@ span.status.reject{
     #breadcrumbs {
         position: relative;
         display: block;
-        margin-top: 30px;
+        margin-top: 0px;
+        top: 20%;
+    }
+    #breadcrumbs ul{
+        padding-right: 16px;
     }
     #titlebar {
         padding: 20px 0;
