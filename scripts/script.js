@@ -61,6 +61,7 @@ $(document).ready(function() {
     });
     var appendsomething1 = function () {
         $(".ui-datepicker-title").append("<div class='something'>تاريخ الوصول</div>");
+        $("#ui-datepicker-div").addClass("datepicker-blue");
     }
 });
 $(function () {
