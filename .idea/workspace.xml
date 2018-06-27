@@ -4,6 +4,7 @@
     <list default="true" id="3b1d87f7-7561-4da5-995a-46708d405152" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="costume.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/costume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="1106" column="11" selection-start-line="1106" selection-start-column="11" selection-end-line="1106" selection-end-column="11" />
+            <state relative-caret-position="520">
+              <caret line="1124" column="18" selection-start-line="1124" selection-start-column="18" selection-end-line="1124" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -35,8 +36,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7565">
-              <caret line="445" column="25" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
+            <state relative-caret-position="1336">
+              <caret line="386" column="65" selection-start-line="386" selection-start-column="65" selection-end-line="386" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -54,16 +55,14 @@
         <entry file="file://$PROJECT_DIR$/forget-pass.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2533">
-              <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="faq.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faq.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-663" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="javascript.php" pinned="false" current-in-tab="false">
@@ -88,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/parsley.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38182">
-              <caret line="2253" column="56" lean-forward="true" selection-start-line="2253" selection-start-column="56" selection-end-line="2253" selection-end-column="56" />
+              <caret line="2253" column="56" selection-start-line="2253" selection-start-column="56" selection-end-line="2253" selection-end-column="56" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -119,27 +118,31 @@
       <find>.mmenu-trigger</find>
       <find>.mmenu</find>
       <find>Menu</find>
-      <find>html.mm-opening .mm-menu.mm-opened ~ .mm-slideout</find>
+      <find />
       <find>OR</find>
       <find>.mm-next:after</find>
       <find>mm-title</find>
-      <find>This value is required</find>
-      <find>.mm-listview em.mm-counter + .mm-next.mm-fullsubopen + a, .mm-listview em.mm-counter + .mm-next.mm-fullsubopen + span</find>
+      <find />
+      <find />
       <find>parsley</find>
-      <find>main-search-input .main-search-input-item:nth-last-child(2)</find>
-      <find>.main-search-input .chosen-container-single .chosen-single div</find>
-      <find>.main-search-input .chosen-container-single .chosen-single div:after</find>
-      <find>.chosen-container-single .chosen-single div:after</find>
-      <find>.radio input[type=&quot;radio&quot;] + .radio-label:before</find>
+      <find />
+      <find />
+      <find />
+      <find />
+      <find />
       <find>.radio</find>
-      <find>الجهة المقصودة</find>
-      <find>This field is required</find>
-      <find>ماذا يقول عملاؤنا</find>
-      <find>This field is required.</find>
+      <find />
+      <find />
+      <find />
+      <find />
       <find>.chosen</find>
       <find>over</find>
-      <find>.forget-pass .box-form .right button</find>
+      <find />
+      <find>col-xs-9</find>
     </findStrings>
+    <replaceStrings>
+      <replace>col-xs-6</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -156,11 +159,11 @@
         <option value="$PROJECT_DIR$/scripts/jquery.validate.min.js" />
         <option value="$PROJECT_DIR$/scripts/chosen.min.js" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Registration-Leader.php" />
         <option value="$PROJECT_DIR$/javascript.php" />
         <option value="$PROJECT_DIR$/forget-pass.php" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/costume.css" />
       </list>
     </option>
@@ -174,7 +177,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-30" />
     <option name="y" value="154" />
     <option name="width" value="1382" />
@@ -245,12 +248,13 @@
       <workItem from="1529269112601" duration="3436000" />
       <workItem from="1529273077892" duration="1529000" />
       <workItem from="1529275148781" duration="3999000" />
-      <workItem from="1530064691103" duration="527000" />
+      <workItem from="1530064691103" duration="1127000" />
+      <workItem from="1530137204889" duration="894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22196000" />
+    <option name="totallyTimeSpent" value="23690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -262,12 +266,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -490,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7565">
-          <caret line="445" column="25" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/crs.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -573,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/parsley.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38182">
-          <caret line="2253" column="56" lean-forward="true" selection-start-line="2253" selection-start-column="56" selection-end-line="2253" selection-end-column="56" />
+          <caret line="2253" column="56" selection-start-line="2253" selection-start-column="56" selection-end-line="2253" selection-end-column="56" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -597,19 +594,24 @@
     <entry file="file://$PROJECT_DIR$/forget-pass.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2533">
-          <caret line="149" lean-forward="true" selection-start-line="149" selection-end-line="149" />
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/faq.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663" />
+        <state relative-caret-position="1336">
+          <caret line="386" column="65" selection-start-line="386" selection-start-column="65" selection-end-line="386" selection-end-column="65" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/costume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="1106" column="11" selection-start-line="1106" selection-start-column="11" selection-end-line="1106" selection-end-column="11" />
+        <state relative-caret-position="520">
+          <caret line="1124" column="18" selection-start-line="1124" selection-start-column="18" selection-end-line="1124" selection-end-column="18" />
         </state>
       </provider>
     </entry>

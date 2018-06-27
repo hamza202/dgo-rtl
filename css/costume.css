@@ -589,7 +589,7 @@ label[for="two"]{
     padding-left: 0;
     padding-right: 15px;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .col-md-offset-2 {
         margin-right: 16.66666667%;
         margin-left: 0;
@@ -1106,6 +1106,26 @@ span.status.reject{
     right: auto;
     left: 0;
 }
+@media (max-width: 768px){
+    .col-xs-6 {
+        width: 50%;
+        float: right;
+        margin: 0px;
+        flex: none;
+        max-width: none;
+        -webkit-box-flex: 0;
+    }
+    .featured-section{
+        background-image:none ;
+    }
+    .featured-section .media-body p{
+        display: none;
+    }
+    .featured-section .row .col-md-3{
+        min-height: 100px;
+    }
+}
+
 /*///////////////////////
 Last update
 ////////////////////////*/
