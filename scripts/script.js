@@ -116,3 +116,10 @@ function customInput(el) {
             label.innerText = value
         }
 }
+if ($(window).width() < 768) {
+    $('.tsf-wizard-btn').click(function () { // on button click
+        $("html, body").animate({ // catch the html, body
+            scrollTop: 320 // make their scrollTop property 0, to go at the top
+        }, 1000); // in 1000 ms (1 second)
+    });
+}

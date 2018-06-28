@@ -1016,10 +1016,8 @@ span.status.reject{
 @media (max-width: 480px) {
     .gsi-number-circle li.visited>* .number, .gsi-number-circle li.current>* .number{
         margin-top: 7px;
-        line-height: 16px;
-        font-size: 17px;
-        padding-top: 2px;
-        padding-left: 5px;
+        padding-left: 3px;
+        line-height: 21px !important;
     }
     .gsi-number-circle li>* .number{
         width: 22px;
@@ -1027,9 +1025,9 @@ span.status.reject{
         height: 22px;
     }
     .gsi-style-7 li>* .number{
-        padding-top: 0;
+        padding-top: 1px !important;
         line-height: 16px;
-        font-size: 17px;
+        font-size: 16px !important;
         padding-left: 5px;
     }
     .featured-section{
