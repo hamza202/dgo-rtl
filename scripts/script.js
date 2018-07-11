@@ -64,9 +64,7 @@ $(document).ready(function() {
         $("#ui-datepicker-div").addClass("datepicker-blue");
     }
 });
-$(function () {
-    pageLoadScript();
-});
+
 
 
 function pageLoadScript() {
@@ -94,7 +92,35 @@ function pageLoadScript() {
 
 
 }
+$(function () {
+    pageLoadScript();
+});
+function pageLoadScript2() {
+    _stepTransition = $('#stepTransition').is(':checked');
+    _showButtons = $('#showButtons').is(':checked');
+    _showStepNum = $('#showStepNum').is(':checked');
 
+
+    tsf1 = $('.tsf-wizard-2').tsfWizard({
+        stepEffect: 'basic',
+        stepStyle: 'style1',
+        navPosition: 'top',
+        validation: false,
+        rtl:true,
+        stepTransition: _stepTransition,
+        showButtons: _showButtons,
+        showStepNum: _showStepNum,
+        prevBtn: 'السابق<i class="fa fa-chevron-left"></i>  ',
+        nextBtn: '<i class="fa fa-chevron-right"></i> التالي ',
+        finishBtn: 'انهاء',
+        height: 'auto',
+    });
+
+
+}
+$(function () {
+    pageLoadScript2();
+});
 // Also see: https://www.quirksmode.org/dom/inputfile.html
 
 var inputs = document.querySelectorAll('.file-input')
@@ -123,3 +149,4 @@ if ($(window).width() < 768) {
         }, 1000); // in 1000 ms (1 second)
     });
 }
+$('#add-drive-form').parsley();
